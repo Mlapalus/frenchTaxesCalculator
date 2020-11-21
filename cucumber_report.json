@@ -1,0 +1,1348 @@
+[
+  {
+    "description": "  Use to calculate the number of parts per household",
+    "elements": [
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 1 person and 0 children in \"total\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 1 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 2 person and 0 children in \"total\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 2 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 2 person and 1 children in \"total\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 2.5 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 2 person and 2 children in \"total\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 3 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 2 person and 3 children in \"total\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 4 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 2 person and 4 children in \"total\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 5 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 2 person and 5 children in \"total\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 6 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 2 person and 1 children in \"alternating\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 2.25 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 2 person and 2 children in \"alternating\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 2.5 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 2 person and 3 children in \"alternating\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 3 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 2 person and 4 children in \"alternating\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 3.5 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 2 person and 5 children in \"alternating\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 4 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 1 person and 1 children in \"alternating\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 1.25 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 1 person and 2 children in \"alternating\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 1.5 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 1 person and 3 children in \"alternating\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 2 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 1 person and 4 children in \"alternating\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 2.5 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 1 person and 5 children in \"alternating\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 3 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "calculate-the-parts-for-one-household",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Calculate the parts for one household",
+    "tags": [],
+    "uri": "features/calculateParts.feature"
+  },
+  {
+    "description": "  The app should calculate french taxes",
+    "elements": [
+      {
+        "description": "",
+        "id": "calculate-taxes;single-person-with-32k",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Single person with 32k",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "1 person has an income of 32000 and 1 part",
+            "match": {
+              "location": "features/step_definitions/calculateTaxe.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "he uses the calculator",
+            "match": {
+              "location": "features/step_definitions/calculateTaxe.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "taxes should be 3617",
+            "match": {
+              "location": "features/step_definitions/calculateTaxe.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-taxes;couple-with-2-children-and-with-55k",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Couple with 2 children and with 55k",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "2 persons has an income of 55950 and 3 parts",
+            "match": {
+              "location": "features/step_definitions/calculateTaxe.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "he uses the calculator",
+            "match": {
+              "location": "features/step_definitions/calculateTaxe.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "taxes should be 2833",
+            "match": {
+              "location": "features/step_definitions/calculateTaxe.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "calculate-taxes",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Calculate taxes",
+    "tags": [],
+    "uri": "features/calculateTaxes.feature"
+  },
+  {
+    "description": "    Use to calculate the the tax household to calculate french taxes",
+    "elements": [
+      {
+        "description": "",
+        "id": "calculate-the-tax-household;tax-household",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Tax household",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am a foyer with 2 person with \"married\"",
+            "match": {
+              "location": "features/step_definitions/calculateTaxHousehold.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I want calculate my tax household",
+            "match": {
+              "location": "features/step_definitions/calculateTaxHousehold.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the result should be 1",
+            "match": {
+              "location": "features/step_definitions/calculateTaxHousehold.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-tax-household;tax-household",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Tax household",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am a foyer with 2 person with \"PACS\"",
+            "match": {
+              "location": "features/step_definitions/calculateTaxHousehold.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I want calculate my tax household",
+            "match": {
+              "location": "features/step_definitions/calculateTaxHousehold.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the result should be 1",
+            "match": {
+              "location": "features/step_definitions/calculateTaxHousehold.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-tax-household;tax-household",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Tax household",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am a foyer with 2 person with \"cohabitation\"",
+            "match": {
+              "location": "features/step_definitions/calculateTaxHousehold.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I want calculate my tax household",
+            "match": {
+              "location": "features/step_definitions/calculateTaxHousehold.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the result should be 2",
+            "match": {
+              "location": "features/step_definitions/calculateTaxHousehold.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-tax-household;tax-household",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Tax household",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am a foyer with 1 person with \"single\"",
+            "match": {
+              "location": "features/step_definitions/calculateTaxHousehold.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I want calculate my tax household",
+            "match": {
+              "location": "features/step_definitions/calculateTaxHousehold.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the result should be 1",
+            "match": {
+              "location": "features/step_definitions/calculateTaxHousehold.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "calculate-the-tax-household",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Calculate the tax household",
+    "tags": [],
+    "uri": "features/calculateTaxHousehold.feature"
+  },
+  {
+    "description": "  Calculate the taxes according to : single or married, the number of children, the mode of custody and the salary",
+    "elements": [
+      {
+        "description": "",
+        "id": "calculator-for-french-taxes--year-2020;calculate-the-taxes",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calculate the Taxes",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "my household contains 1 persons",
+            "match": {
+              "location": "features/step_definitions/calculatorFrenchTaxes.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "we have 0 children in \"total\" custody",
+            "match": {
+              "location": "features/step_definitions/calculatorFrenchTaxes.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "we have a income of 32000",
+            "match": {
+              "location": "features/step_definitions/calculatorFrenchTaxes.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I calculate my taxes",
+            "match": {
+              "location": "features/step_definitions/calculatorFrenchTaxes.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the taxes should be 3617",
+            "match": {
+              "location": "features/step_definitions/calculatorFrenchTaxes.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculator-for-french-taxes--year-2020;calculate-the-taxes",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calculate the Taxes",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "my household contains 2 persons",
+            "match": {
+              "location": "features/step_definitions/calculatorFrenchTaxes.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "we have 2 children in \"total\" custody",
+            "match": {
+              "location": "features/step_definitions/calculatorFrenchTaxes.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "we have a income of 55950",
+            "match": {
+              "location": "features/step_definitions/calculatorFrenchTaxes.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I calculate my taxes",
+            "match": {
+              "location": "features/step_definitions/calculatorFrenchTaxes.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the taxes should be 2833",
+            "match": {
+              "location": "features/step_definitions/calculatorFrenchTaxes.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "calculator-for-french-taxes--year-2020",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Calculator for French Taxes  Year 2020",
+    "tags": [],
+    "uri": "features/calculatorFrenchTaxes.feature"
+  }
+]

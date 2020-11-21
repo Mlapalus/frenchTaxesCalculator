@@ -1,0 +1,25 @@
+{
+  "name": "challenge-grafikart-atdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js --require-module @babel/register --require-module @babel/polyfill -f json:cucumber_report.json -f progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0-rc.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "chai": "^4.2.0",
+    "chromedriver": "^87.0.0",
+    "cucumber-html-reporter": "^5.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
