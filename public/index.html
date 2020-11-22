@@ -48,13 +48,67 @@
     <label for="parts">Nombre d'enfants</label>
   </div>
 
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <label class="input-group-text" for="situation">Situation maritale</label>
+    </div>
+
+    <select class="custom-select" id="situation">
+      <option value="1">Célibataire</option>
+      <option value="2">Mariés ou Pacsé</option>
+    </select>
+  </div>
+
+
   <div class="form-label-group">
     <div class="card">
       <div class="card-body">
           <p>Vos impôts</p>
-          <p><span id="result" class="input-group-text">...</span></p>      </div>
+          <p><span id="result" class="input-group-text">...</span></p>      
+        </div>
     </div>
   </div>
+
+    <h4 class="d-flex justify-content-between align-items-center mb-3">
+      <span class="text-muted">Votre impôt par tranche</span>
+    </h4>
+    <ul class="list-group mb-3">
+      <li class="list-group-item d-flex justify-content-between lh-condensed">
+        <div>
+          <h6 class="my-0">Tranche: 0 à 10074€</h6>
+          <small class="text-muted">0%</small>
+        </div>
+        <span id="firstSlice" class="text-muted">...</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between lh-condensed">
+        <div>
+          <h6 class="my-0">Tranche: 10075€ à 25659€</h6>
+          <small class="text-muted">11%</small>
+        </div>
+        <span id="secondSlice" class="text-muted">...</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between lh-condensed">
+        <div>
+          <h6 class="my-0">Tranche: 25660€ à 73369€</h6>
+          <small class="text-muted">30%</small>
+        </div>
+        <span id="thirdSlice" class="text-muted">...</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between lh-condensed">
+        <div>
+          <h6 class="my-0">Tranche: 73370€ à 157806€</h6>
+          <small class="text-muted">41%</small>
+        </div>
+        <span id="fourthSlice" class="text-muted">...</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between lh-condensed">
+        <div>
+          <h6 class="my-0">Tranche: Au dessus de 157807€</h6>
+          <small class="text-muted">45%</small>
+        </div>
+        <span  id="fifthSlice" class="text-muted">...</span>
+      </li>
+    </ul>
 
   <p class="mt-5 mb-3 text-muted text-center">&copy; MLapalus-2020</p>
 </form>

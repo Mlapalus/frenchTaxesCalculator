@@ -11,6 +11,7 @@ export default class FrenchTaxesCalculator {
     this.income = 0;
     this.result = 0;
     this.custodyMode = 'total';
+    this.taxesBySlice = [];
   }
 
   setCustodyMode(custodyMode) {
@@ -28,6 +29,14 @@ export default class FrenchTaxesCalculator {
   setIncome(income) {
     this.income = income;
     return this;
+  }
+
+  setTaxesBySlice(taxes) {
+    this.taxesBySlice = taxes;
+  }
+
+  getTaxesBySlice() {
+    return this.taxesBySlice;
   }
 
   getTaxes(){
@@ -51,9 +60,8 @@ export default class FrenchTaxesCalculator {
     taxescalculator.setIncome(this.income);
     taxescalculator.setPerson(this.person);
     taxescalculator.setParts(nbParts);
-    taxescalculator.calculate();
-
     this.result = taxescalculator.calculate();
+    this.setTaxesBySlice(taxescalculator.gettTotalBySlice());
     return this.result;
 
   }

@@ -11,6 +11,7 @@ export default class TaxesCalculator {
     this.income = 0;
     this.parts = 1;
     this.person = 1;
+    this.totalBySlice = [];
   }
 
   setIncome(income)
@@ -19,6 +20,11 @@ export default class TaxesCalculator {
     return this;
   }
   
+  gettTotalBySlice()
+  {
+    return this.totalBySlice;
+  }
+
 
   setParts(parts)
   {
@@ -37,7 +43,9 @@ export default class TaxesCalculator {
   {
       const byPerson = this.person/this.person;
       const newIncome = (this.income/this.parts) * byPerson;
-      return  Math.floor(this.getTaxesByParts(newIncome) * this.parts);
+      const result= Math.floor(this.getTaxesByParts(newIncome) * this.parts);
+      this.totalBySlice = this.totalBySlice.map(x => Math.floor(x) * this.parts);
+      return result;
   }
 
 
@@ -45,6 +53,8 @@ export default class TaxesCalculator {
     let alreadyCounted = 0;
     let i = 0;
     let totalTaxes = 0;
+    this.totalBySlice = [];
+
 
     while(alreadyCounted < income)
     {
@@ -57,7 +67,7 @@ export default class TaxesCalculator {
       } else {
         actualTaxe = level *slice.rate / 100;
       }
-
+      this.totalBySlice.push(actualTaxe);
       alreadyCounted = slice.max;
       i++;
       totalTaxes += actualTaxe;
