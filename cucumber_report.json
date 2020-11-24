@@ -19,7 +19,157 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 1 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 1 person and 1 children in \"total\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 1.5 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 1 person and 2 children in \"total\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 2 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 1 person and 3 children in \"total\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -39,13 +189,63 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "The result should be 1 parts",
+            "name": "The result should be 3 parts",
             "match": {
               "location": "features/step_definitions/calculateParts.js:24"
             },
             "result": {
               "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculate-the-parts-for-one-household;calcul-parts-depends-of-household,-persons-and-children,-and-alternating-custody",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Calcul parts depends of household, persons and children, and alternating custody",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "1 household with 1 person and 4 children in \"total\" mode",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:8"
+            },
+            "result": {
+              "status": "passed",
               "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I calculate the number of parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The result should be 4 parts",
+            "match": {
+              "location": "features/step_definitions/calculateParts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
             }
           }
         ],
@@ -95,7 +295,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           }
         ],
@@ -119,7 +319,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -132,7 +332,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -182,7 +382,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -219,7 +419,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 1000000
             }
           },
           {
@@ -245,7 +445,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           }
         ],
@@ -269,7 +469,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -319,7 +519,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -332,7 +532,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -345,7 +545,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           }
         ],
@@ -369,7 +569,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -419,7 +619,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -432,7 +632,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -445,7 +645,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           }
         ],
@@ -545,7 +745,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           }
         ],
@@ -582,7 +782,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -619,7 +819,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -645,7 +845,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           }
         ],
@@ -669,7 +869,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -695,7 +895,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 10000000
             }
           }
         ],
@@ -719,7 +919,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 4000000
             }
           },
           {
@@ -732,7 +932,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -745,7 +945,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 2000000
             }
           }
         ],
@@ -769,7 +969,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 0
             }
           },
           {
@@ -782,7 +982,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 0
             }
           },
           {
@@ -832,7 +1032,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -943,7 +1143,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -1017,7 +1217,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 2000000
             }
           }
         ],
@@ -1041,7 +1241,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -1067,7 +1267,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           }
         ],
@@ -1104,7 +1304,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -1117,7 +1317,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           }
         ],
@@ -1154,7 +1354,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 3000000
             }
           },
           {
@@ -1167,7 +1367,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 2000000
             }
           }
         ],
@@ -1202,7 +1402,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 1000000
             }
           },
           {
@@ -1215,7 +1415,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -1228,7 +1428,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -1254,7 +1454,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           }
         ],
@@ -1278,7 +1478,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 1000000
             }
           },
           {
@@ -1291,7 +1491,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -1304,7 +1504,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {

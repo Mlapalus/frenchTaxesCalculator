@@ -22,6 +22,15 @@ let resultChildren = 0;
 let resultSituation = 0;
 let resultBySlide = [];
 
+const takeResult = function() {
+    resultBySlide = calculator.getTaxesBySlice();
+    result.innerHTML = resultSituation.toString();
+    sliceOne.innerHTML = resultBySlide[0] ?? 0 ;
+    sliceTwo.innerHTML = resultBySlide[1] ?? 0;
+    sliceThree.innerHTML = resultBySlide[2] ?? 0;
+    sliceFour.innerHTML = resultBySlide[3] ?? 0;
+    sliceFive.innerHTML = resultBySlide[4] ?? 0;
+}
 
 situation.addEventListener("change",function(){
   resultSituation = calculator.setPerson(+this.value).calculate();
@@ -32,7 +41,7 @@ situation.addEventListener("change",function(){
   sliceThree.innerHTML = resultBySlide[2] ?? 0;
   sliceFour.innerHTML = resultBySlide[3] ?? 0;
   sliceFive.innerHTML = resultBySlide[4] ?? 0;
-});
+}); 
 
 income.addEventListener("input",function() {
   resultIncome = calculator.setIncome(+this.value).calculate();

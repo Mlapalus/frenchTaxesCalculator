@@ -10,6 +10,10 @@ Feature: Calculate the parts for one household
     Examples:
       | nbHousehold | nbPerson | nbChildren | custody     | nbParts |
       | 1           | 1        | 0          | total       | 1       |
+      | 1           | 1        | 1          | total       | 1.5     |
+      | 1           | 1        | 2          | total       | 2       |
+      | 1           | 1        | 3          | total       | 3       |
+      | 1           | 1        | 4          | total       | 4       |
       | 1           | 2        | 0          | total       | 2       |
       | 1           | 2        | 1          | total       | 2.5     |
       | 1           | 2        | 2          | total       | 3       |
