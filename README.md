@@ -1,4 +1,4 @@
-** Calculateur des impots en France en 2020 **
+**Calculateur des impots en France en 2020**
 
 Ecrit en Javascript
 Pour installer:
